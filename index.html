@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index-style.css">
+</head>
+
+<body>
+
+
+    <div class="container login">
+        <div class="d-flex justify-content-center align-items-center flex-column">
+            <div class="rounded shadow loginpage">
+                <div class="login">
+                    <h1 class="mb-5 ">Login</h1>
+                    <div class="form-group d-flex mb-4">
+                        <span><i class="fas fa-user"></i></span>
+                        <input id="loginUser" class="form-control " required placeholder="Username">
+                    </div>
+                    <div class="form-group d-flex my-5">
+                        <span><i class="fas fa-lock"></i></span>
+                        <input id="loginPass" class="form-control" type="password" placeholder="Password" required>
+                    </div>
+                    <div>
+                        <p id="tryAgain" class="text-danger text-center position-absolute Please d-none">Please try again</p>
+                        <a id="registerLogin" class="button d-block " type="button">Log in</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Logion">
+                <p class="sign">Don't Have Account?
+                    <a href="signUp.html">Sign Up Now!</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+/****************** Login Page ******************/
+body
+{
+    background-image: url(../images/businessman-fingerprint-scan-biometric-authentication-260nw-759104368.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loginpage
+{
+    width: 400px;
+    height: 380px;
+    background-color: #ffffff7d;
+    margin-top: 200px;
+    padding: 25px;
+    position: relative;
+}
+.login h1
+{
+    color: #928e8b;
+    font-size: 3rem;
+   text-align: center;
+   margin: 20px;
+}
+.form-group span 
+{
+ width: 10%;
+ padding: 0.5rem;
+ background-color: #1e7f92;
+ border: 1px solid #1e7f92;
+ border-top-left-radius: 5px;
+ border-bottom-left-radius: 5px;
+ text-align: center;
+ color: #ffffff;
+}
+.form-group input
+{
+    width: 90%;
+    border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.loginpage .button
+{
+    text-decoration: none;
+    background-color: #1e7f92;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 10px;
+    transition: background-color 1s;
+}
+.loginpage .button:hover
+{
+    background-color: #0bcaf0;
+}
+.signUp
+{
+    color: #ffffff7d;
+    margin: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.Logion p
+{
+    font-size: 1.5rem;
+    color: #fffffff6;
+}
+.Please
+{
+    font-size: 1.4rem;
+    right: 120px;
+    bottom: 10%;
+}
+.signUp a
+{
+    text-decoration: none;
+    color: #0bcaf0;
+    transition: text-decoration 1s;
+}
+.signUp a:hover
+{
+    text-decoration: underline;
+}
+/****************** Login Page ******************/
+
+
